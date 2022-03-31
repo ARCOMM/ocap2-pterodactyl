@@ -8,7 +8,7 @@ MAINTAINER ARCOMM, <webmaster@arcomm.co.uk>
 
 RUN rm -rf /var/lib/ocap/data \
     /var/lib/ocap/maps \
-    /var/lib/ocap/db/data.db \
+    /var/lib/ocap/db \
     /etc/ocap/setting.json
 RUN ln -s /home/container/data /var/lib/ocap/data
 RUN ln -s /home/container/maps /var/lib/ocap/maps
