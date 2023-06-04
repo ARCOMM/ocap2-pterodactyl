@@ -2,7 +2,7 @@
 # OCAP2 Web component Dockerfile
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM ghcr.io/ocap2/web
+FROM ghcr.io/ocap2/web:main
 
 MAINTAINER ARCOMM, <webmaster@arcomm.co.uk>
 
